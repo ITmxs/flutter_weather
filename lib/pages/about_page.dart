@@ -23,14 +23,14 @@ class AboutPage extends StatelessWidget {
                 style: TextStyle(fontSize: 20.0),
               ),
               SizedBox(height: 30.0),
-              Text('GitHub: https://github.com/huang-weilong', textScaleFactor: 0.9),
+              Text('https://github.com/ITmxs/flutter_weather', textScaleFactor: 0.9),
               SizedBox(height: 10.0),
               RichText(
                 textScaleFactor: 0.9,
                 text: TextSpan(
                   style: TextStyle(color: Color(0xff333333)),
                   text: AppLocalizations.of(context).tr('jianshu'),
-                  children: [TextSpan(text: ': https://www.jianshu.com/p/e8e535952291')],
+                  children: [TextSpan(text: ': https://www.jianshu.com/u/0c43689713e9')],
                 ),
               ),
               SizedBox(height: 10.0),
